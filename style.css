@@ -1,0 +1,62 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    background-color: rgb(221, 235, 247);
+}
+
+.card {
+    margin: auto;
+    height: 30rem;
+    border-radius: 1rem;
+}
+
+.card-title {
+    margin: auto;
+}
+
+img,
+svg {
+    vertical-align: middle;
+    height: 18rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .card.w-25.my-auto.text-wrap {
+        margin: auto;
+        width: 89% !important;
+        height: 32rem;
+        border-radius: 1rem;
+    }
+    img,
+    svg {
+        vertical-align: middle;
+        height: 16rem;
+        margin-top: 1rem;
+        border-radius: 1rem;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+    .card.w-25.my-auto.text-wrap {
+        margin: auto;
+        width: 54% !important;
+        height: 32rem;
+        border-radius: 1rem;
+    }
+    img,
+    svg {
+        vertical-align: middle;
+        height: 16rem;
+        margin-top: 1rem;
+        border-radius: 1rem;
+    }
+}
